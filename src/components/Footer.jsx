@@ -16,6 +16,13 @@ const Footer = () => {
               width={30}
               height={30}
               alt="logo"
+              priority
+              quality={100}
+              sizes="(max-width: 30px) 100vw, 30px"
+              style={{
+                objectFit: "contain",
+              }}
+             
               src={"/logo.png"}
             />
             <h2 className="bg-gradient-to-br from-amber-800 to-lime-400 font-medium md:text-3xl bg-clip-text text-transparent">

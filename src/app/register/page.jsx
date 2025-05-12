@@ -1,11 +1,7 @@
 import Register from "@/components/Register";
 
 const page = () => {
-  return (
-    <>
-      <Register />
-    </>
-  );
+  return <Register />;
 };
 
 export const metadata = {
